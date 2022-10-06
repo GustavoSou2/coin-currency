@@ -1,0 +1,73 @@
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo {
+  width: 100%;
+  padding: 25px 13px;
+}
+
+.nav-menu {
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.search {
+  width: 95%;
+  height: 35px;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  gap: 10px;
+  background-color: #202135;
+  margin-bottom: 20px;
+}
+
+.search input {
+  width: 100%;
+  background-color: transparent;
+  font-size: 11px;
+  font-weight: 300;
+}
+
+.search input::placeholder {
+  color: #fafafa2b;
+  font-size: 13px;
+}
+
+.search i.fas {
+  color: #fafafa2b;
+  fill: #fafafa2b;
+  font-size: 13px;
+}
+
+.coins {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+*::-webkit-scrollbar {
+  width: 7px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #58585831;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #585858;
+  border-radius: 20px;
+  border: 3px solid #58585831;
+}
